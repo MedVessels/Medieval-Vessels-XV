@@ -27,7 +27,7 @@ var GeoportailFrance_orthos = L.tileLayer('https://wxs.ign.fr/{apikey}/geoportai
 	apikey: 'choisirgeoportail',
 	format: 'image/jpeg',
 	style: 'normal'
-});
+}).addTo(map);
 
 //Layer control
 var baseLayers = {
