@@ -38,7 +38,7 @@ var baseLayers = {
 };
 
 L.control.layers(baseLayers).addTo(map);
-
+L.geoJSON(portos).addTo(map);
 
   
 
